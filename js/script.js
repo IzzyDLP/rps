@@ -37,15 +37,15 @@ function play(playerSelection, computerSelection) {
 
 const game = () => {
   for (let i = 0; i < 5; i++) {
-    let computerChoice = getComputerChoice()
+    let computerChoice = getComputerChoice();
     console.log((play(playerSelection(), computerChoice)));
   }
   if (pScore > compScore) {
-    return "You win!"
+    return "You win!";
   } else if (compScore > pScore){
-    return "You lost!"
+    return "You lost!";
   } else {
-    return "It's a tie!"
+    return "It's a tie!";
   }
 }
 
