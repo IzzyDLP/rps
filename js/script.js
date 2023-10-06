@@ -35,18 +35,19 @@ function play(playerSelection, computerSelection) {
   }
 }
 
-const game = () => {
-  for (let i = 0; i < 5; i++) {
-    let computerChoice = getComputerChoice();
-    console.log((play(playerSelection(), computerChoice)));
-  }
-  if (pScore > compScore) {
-    return "You win!";
-  } else if (compScore > pScore){
-    return "You lost!";
-  } else {
-    return "It's a tie!";
-  }
-}
+// const game = () => {
+//   for (let i = 0; i < 5; i++) {
+//     let computerChoice = getComputerChoice();
+//     console.log((play(playerSelection(), computerChoice)));
+//   }
+//   if (pScore > compScore) {
+//     return "You win!";
+//   } else if (compScore > pScore){
+//     return "You lost!";
+//   } else {
+//     return "It's a tie!";
+//   }
+// }
+
 
 console.log(game());
